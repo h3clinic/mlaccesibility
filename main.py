@@ -16,7 +16,7 @@ face_mesh = mp_face_mesh.FaceMesh(
 # Initialize Webcam
 cap = cv2.VideoCapture(0)
 
-print("Press 'q' to exit the webcam view.")
+print("Press 'cmd q' to exit the webcam view.")
 
 while cap.isOpened():
     success, image = cap.read()
@@ -67,10 +67,6 @@ while cap.isOpened():
 
     # Flip the image horizontally for a selfie-view display
     cv2.imshow('MediaPipe Face & Eye Detection', cv2.flip(image, 1))
-
-    # Break loop on 'q' press
-    if cv2.waitKey(5) & 0xFF == ord('q'):
-        break
 
 # Release resources
 cap.release()

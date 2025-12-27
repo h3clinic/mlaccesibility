@@ -1,3 +1,3 @@
 # Cool Project :)
 
-Run `source mlchess/bin/activate` for the Python environment.
+Run `source .venv/bin/activate` for the Python environment.
