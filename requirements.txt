@@ -1,0 +1,9 @@
+absl-py==2.3.1
+cffi==2.0.0
+flatbuffers==25.12.19
+mediapipe==0.10.31
+numpy==2.4.0
+packaging==25.0
+pip_system_certs==5.3
+pycparser==2.23
+sounddevice==0.5.3
