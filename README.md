@@ -1,4 +1,4 @@
-# Cool Project :)
+# Chess
 
 Run `python3 -m venv venv` to create Python environment
 
